@@ -35,7 +35,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const isDark = (document.documentElement.getAttribute('data-theme') === 'dark');
     setTheme(isDark ? 'light' : 'dark');
 
-    if (window.DISQUS && typeof window.reloadDisqus === 'function') {
+    if (typeof window.setGiscusTheme === 'function') {
+      window.setGiscusTheme(isDark ? 'light' : 'dark');
+    } else if (window.DISQUS && typeof window.reloadDisqus === 'function') {
       window.reloadDisqus();
     }
   }

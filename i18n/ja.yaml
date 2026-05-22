@@ -118,5 +118,8 @@
 - id: "reading.time.sec"
   translation: "読了約 %s秒"
 
+- id: "comments.noscript.text"
+  translation: "コメントを表示するにはJavaScriptを有効にしてください。"
+
 - id: "search.index.config"
   translation: '{ cache: true }'

@@ -118,5 +118,8 @@
 - id: "reading.time.sec"
   translation: "%s сек. четене"
 
+- id: "comments.noscript.text"
+  translation: "Моля, активирайте JavaScript, за да видите коментарите."
+
 - id: "search.index.config"
   translation: "{ cache: true }"

@@ -118,5 +118,8 @@
 - id: "reading.time.sec"
   translation: "%s sek kusoma"
 
+- id: "comments.noscript.text"
+  translation: "Tafadhali wezesha JavaScript ili kuona maoni."
+
 - id: "search.index.config"
   translation: '{ cache: true }'

@@ -118,5 +118,8 @@
 - id: "reading.time.sec"
   translation: "%s s čtení"
 
+- id: "comments.noscript.text"
+  translation: "Prosím, povolte JavaScript pro zobrazení komentářů."
+
 - id: "search.index.config"
   translation: '{ cache: true }'

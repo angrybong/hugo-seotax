@@ -118,5 +118,8 @@
 - id: "reading.time.sec"
   translation: "%s秒阅读"
 
+- id: "comments.noscript.text"
+  translation: "请启用 JavaScript 以查看评论。"
+
 - id: "search.index.config"
   translation: '{ cache: true }'

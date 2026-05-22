@@ -116,5 +116,8 @@
 - id: "reading.time.sec"
   translation: "%s sn okuma"
 
+- id: "comments.noscript.text"
+  translation: "Yorumları görüntülemek için JavaScript'i etkinleştirin."
+
 - id: "search.index.config"
   translation: '{ cache: true }'

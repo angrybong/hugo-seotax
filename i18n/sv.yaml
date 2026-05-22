@@ -118,5 +118,8 @@
 - id: "reading.time.sec"
   translation: "%s sek lästid"
 
+- id: "comments.noscript.text"
+  translation: "Aktivera JavaScript för att se kommentarerna."
+
 - id: "search.index.config"
   translation: '{ cache: true }'

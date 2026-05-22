@@ -118,5 +118,8 @@
 - id: "reading.time.sec"
   translation: "%s সেকেন্ড পাঠ"
 
+- id: "comments.noscript.text"
+  translation: "মন্তব্য দেখতে জাভাস্ক্রিপ্ট সক্রিয় করুন।"
+
 - id: "search.index.config"
   translation: '{ cache: true }'

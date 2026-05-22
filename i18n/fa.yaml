@@ -118,5 +118,8 @@
 - id: "reading.time.sec"
   translation: "%s ثانیه مطالعه"
 
+- id: "comments.noscript.text"
+  translation: "لطفاً جاوااسکریپت را برای مشاهده نظرات فعال کنید."
+
 - id: "search.index.config"
   translation: '{ cache: true }'

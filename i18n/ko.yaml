@@ -118,6 +118,9 @@
 - id: "reading.time.sec"
   translation: "읽는데 %s초"
 
+- id: "comments.noscript.text"
+  translation: "댓글을 보려면 JavaScript를 활성화해주세요."
+
 - id: "search.index.config"
   translation: |
     {

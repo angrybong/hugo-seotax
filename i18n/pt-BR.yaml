@@ -118,5 +118,8 @@
 - id: "reading.time.sec"
   translation: "%s s de lectura"
 
+- id: "comments.noscript.text"
+  translation: "Por favor, ative o JavaScript para ver os comentários."
+
 - id: "search.index.config"
   translation: '{ cache: true }'

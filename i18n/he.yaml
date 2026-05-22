@@ -118,5 +118,8 @@
 - id: "reading.time.sec"
   translation: "%s שניות קריאה"
 
+- id: "comments.noscript.text"
+  translation: "אנא הפעל JavaScript כדי לצפות בתגובות."
+
 - id: "search.index.config"
   translation: '{ cache: true }'

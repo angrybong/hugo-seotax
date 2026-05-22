@@ -118,5 +118,8 @@
 - id: "reading.time.sec"
   translation: "%s ሰከንድ ንባብ"
 
+- id: "comments.noscript.text"
+  translation: "አስተያየቶችን ለማየት JavaScript ን ያንቁ።"
+
 - id: "search.index.config"
   translation: "{ cache: true }"
