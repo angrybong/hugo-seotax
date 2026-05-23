@@ -88,10 +88,18 @@ params:
   # PWA Service Worker ("precache" to enable)
   # serviceWorker: "precache"
 
-  # Comments (Disqus)
   # comments:
   #   enabled: true
-  #   disqusShortname: "your-shortname"
+  #   provider: "giscus" # "disqus"
+  #   disqus:
+  #     shortname: "your-disqus-shortname"
+  #   giscus:
+  #     repo: "[ENTER REPO HERE]"
+  #     repoId: "[ENTER REPO ID HERE]"
+  #     category: "[ENTER CATEGORY NAME HERE]"
+  #     categoryId: "[ENTER CATEGORY ID HERE]"
+  #     mapping: "pathname"
+  #     inputPosition: "bottom"
 
   # Google Analytics
   # GoogleAnalytics:
