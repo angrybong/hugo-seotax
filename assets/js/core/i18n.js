@@ -167,6 +167,9 @@ window.addEventListener('DOMContentLoaded', function() {
       selector.addEventListener('change', (e) => {
         localStorage.setItem(storageKey, e.target.value);
         setLanguage(e.target.value);
+        if (typeof window.setGiscusLang === 'function') {
+          window.setGiscusLang(e.target.value);
+        }
       });
     }
 

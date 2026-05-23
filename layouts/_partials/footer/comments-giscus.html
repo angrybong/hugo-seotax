@@ -17,11 +17,22 @@
     s.setAttribute('data-emit-metadata', '0');
     s.setAttribute('data-input-position', '{{ .Site.Params.comments.giscus.inputPosition | default "bottom" }}');
     s.setAttribute('data-theme', isDark ? 'dark' : 'light');
-    s.setAttribute('data-lang', '{{ .Site.Language.Lang }}');
+    var storedLang = localStorage.getItem('site-language') || '{{ .Site.Language.Lang }}';
+    s.setAttribute('data-lang', storedLang);
     s.setAttribute('data-loading', 'lazy');
     s.setAttribute('crossorigin', 'anonymous');
     s.async = true;
     document.getElementById('giscus-container').appendChild(s);
+
+    window.setGiscusLang = function(lang) {
+      var iframe = document.querySelector('iframe.giscus-frame');
+      if (iframe) {
+        iframe.contentWindow.postMessage(
+          { giscus: { setConfig: { lang: lang } } },
+          'https://giscus.app'
+        );
+      }
+    };
 
     window.setGiscusTheme = function(theme) {
       var iframe = document.querySelector('iframe.giscus-frame');
