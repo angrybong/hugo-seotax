@@ -20,9 +20,12 @@
   <div class="menu-overlay"></div>
 
   <main class="container">
+    {{- $isPostPage := and .IsPage (eq .Section (default "posts" .Site.Params.posts.section)) -}}
+    {{- if not $isPostPage }}
     {{ template "menu-container" . }} <!-- Left menu -->
+    {{- end }}
 
-    <div class="main-wrap">
+    <div class="main-wrap{{ if $isPostPage }} post-reading-view{{ end }}">
       {{ template "header" . }} <!-- Header above page content -->
       {{ template "content" . }} <!-- Page Content -->
       {{ template "footer" . }} <!-- Footer under page content -->

@@ -105,6 +105,17 @@ nav ul {
   }
 }
 
+.site-type-posts.site-kind-page {
+  .post-reading-view {
+    margin-inline: auto;
+  }
+
+  .site-header label[for="menu-control"],
+  .site-header .menu-icon {
+    display: none;
+  }
+}
+
 .h1-image {
   max-height: 2rem;
 }
